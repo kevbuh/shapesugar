@@ -42,6 +42,13 @@ Batch = NewType('Batch', int)
 y: Array[Batch, Height, Width] = Array()
 z: Array[Time, Batch, Height, Width] = Array()
 ```
+
+### Misc
+- Decoupling Algorithms from the Organization of Computation for High Performance Image Processing
+- https://einops.rocks/pytorch-examples.html
+- https://github.com/google/trax
+- https://blog.jle.im/entry/practical-dependent-types-in-haskell-1.html
+
 <!-- 
 # MISC
 
